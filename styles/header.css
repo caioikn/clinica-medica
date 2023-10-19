@@ -1,0 +1,26 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+}
+
+.perfil-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-usuario {
+    color: var(--cor-principal);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.status-usuario {
+    color: var(--cor-secundaria);
+}

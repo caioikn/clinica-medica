@@ -1,0 +1,12 @@
+@import url('./variaveis.css');
+@import url('./header.css');
+@import url('./consultas.css');
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 32px 16px;
+}
