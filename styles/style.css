@@ -1,8 +1,11 @@
 @import url('./variaveis.css');
-@import url('./header.css');
+@import url('./home.css');
 @import url('./consultas.css');
+@import url('./navegacao.css');
+@import url('./botao-flutuante.css');
+@import url('./modal.css');
 
-body {
+main {
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
     font-size: 14px;

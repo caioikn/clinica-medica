@@ -1,0 +1,35 @@
+.modal-cadastro {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+.ativo {
+    display: flex;
+}
+
+.modal-opcao {
+    display: flex;
+    align-items: center;
+}
+
+.modal-opcao p {
+    background-color: var(--branco);
+    border-radius: 2323px;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+.modal-opcao img {
+    cursor: pointer;
+}

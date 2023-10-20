@@ -1,0 +1,37 @@
+.menu {
+    background-color: var(--branco);
+    border-radius: 12px 12px 0px 0px;
+    bottom: 0;
+    color: var(--cor-secundaria);
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.menu-lista li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lista li img {
+    height: 20px;
+    width: 24px;
+}
+
+.menu-lista li span {
+    font-size: 12px;
+}
+
+.menu-consulta {
+    color: var(--azul);
+}

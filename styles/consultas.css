@@ -60,11 +60,38 @@
     font-size: 12px;
 }
 
-.linha-divisoria {
+.camera,
+.consulta-chat,
+.pin {
+    background-image: url('../assets/img/icons/Camera.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.camera {
+    height: 14px;
+    width: 16px;
+}
+
+.consulta-chat {
+    background-image: url('../assets/img/icons/Chat.svg');
+    border-radius: 50%;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+}
+
+.pin {
+    background-image: url('../assets/img/icons/Pin.svg');
+    height: 16px;
+    width: 14px;
+}
+
+.consulta .linha-divisoria {
     background-color: var(--cor-fundo);
     border: none;
     height: 1px;
-    padding: 0 12px;
     width: 100%;
 }
 
@@ -84,6 +111,7 @@
 .botoes-acao button,
 .botao-endereco {
     border-radius: 8px;
+    cursor: pointer;
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 500;
@@ -102,7 +130,7 @@
 }
 
 .botao-endereco {
-    background-color: var(--cor-botao-endereco);
+    background-color: var(--azul);
     border: none;
     color: var(--branco);
     margin: 0px 16px 16px 16px;
