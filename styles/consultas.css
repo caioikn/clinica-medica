@@ -12,7 +12,7 @@
 
 .data-consulta {
     color: var(--cor-principal);
-    font-size: 16px;
+    font-size: 1.15rem;
     font-weight: 600;
 }
 
@@ -34,9 +34,9 @@
 }
 
 .foto-paciente {
-    border-radius: 16px;
-    height: 32px;
-    width: 32px;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .nome-paciente {
@@ -45,7 +45,7 @@
 
 .nome-paciente h3 {
     color: var(--cor-principal);
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -57,7 +57,7 @@
 
 .info-consulta p {
     color: var(--cor-secundaria);
-    font-size: 12px;
+    font-size: 0.85rem;
 }
 
 .camera,
@@ -70,25 +70,25 @@
 }
 
 .camera {
-    height: 14px;
-    width: 16px;
+    height: 1rem;
+    width: 1.15rem;
 }
 
 .consulta-chat {
     background-image: url('../assets/img/icons/Chat.svg');
     border-radius: 50%;
     cursor: pointer;
-    height: 32px;
-    width: 32px;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .pin {
     background-image: url('../assets/img/icons/Pin.svg');
-    height: 16px;
-    width: 14px;
+    height: 1.15rem;
+    width: 1rem;
 }
 
-.consulta .linha-divisoria {
+.linha-divisoria {
     background-color: var(--cor-fundo);
     border: none;
     height: 1px;
@@ -97,7 +97,7 @@
 
 .horario-consulta {
     color: var(--cor-principal);
-    font-size: 12px;
+    font-size: 0.85rem;
     font-weight: 500;
     padding: 0px 0px 8px 16px;
 }
@@ -113,7 +113,7 @@
     border-radius: 8px;
     cursor: pointer;
     font-family: var(--fonte-principal);
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 500;
     padding: 13px 16px;
 }
