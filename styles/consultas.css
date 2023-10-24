@@ -122,11 +122,13 @@
     background: var(--cor-botao-video);
     box-shadow: 0px 4px 16px 0px rgba(255, 176, 80, 0.16);
     border: none;
+    color: var(--branco);
 }
 
 .botao-audio {
     background: transparent;
     border: 1px solid #ECECEC;
+    color: var(--cor-principal);
 }
 
 .botao-endereco {
@@ -134,4 +136,37 @@
     border: none;
     color: var(--branco);
     margin: 0px 16px 16px 16px;
+}
+
+/* Telas a partir de 768px */
+@media screen and (min-width: 768px) {
+    .lista-de-consultas {
+        margin-bottom: 16px;
+    }
+
+    .lista-consulta {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .consulta-container {
+        width: 22rem;
+    }
+}
+
+/* Telas a partir de 1024px */
+@media screen and (min-width: 1024px) {
+    .consulta-container {
+        width: 30rem;
+    }
+
+    .lista-consulta {
+        gap: 48px;
+        padding: 32px 48px;
+    }
+
+    .lista-de-consultas {
+        text-align: justify;
+        gap: 24px;
+    }
 }
