@@ -22,23 +22,51 @@
     flex-direction: column;
 }
 
-.menu-lista li img {
+.menu-lista li:hover {
+    color: var(--azul);
+}
+
+.menu-lista li svg {
     height: 20px;
     width: 24px;
 }
 
-.menu-lista li span {
-    font-size: 12px;
+.menu-lista li:hover>svg path {
+    fill: var(--azul);
 }
 
-.menu-consulta {
+.menu-lista li span {
+    font-size: 0.85rem;
+}
+
+.tela-ativa {
     color: var(--azul);
+    font-weight: bold;
 }
 
 /* Telas a partir de 1024px */
 @media screen and (min-width: 1024px) {
+    .menu {
+        border-radius: 0px;
+        border-right: 2px solid var(--cor-secundaria);
+        padding: 14px 0px 0px 14px;
+        top: 0px;
+        width: 180px;
+    }
+
     .menu-lista {
+        flex-direction: column;
+        gap: 20px;
         justify-content: center;
-        gap: 48px;
+    }
+
+    .menu-lista li {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .inicio,
+    .lista-de-consultas {
+        padding-left: 200px;
     }
 }

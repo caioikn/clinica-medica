@@ -157,7 +157,7 @@
 /* Telas a partir de 1024px */
 @media screen and (min-width: 1024px) {
     .consulta-container {
-        width: 30rem;
+        width: 25rem;
     }
 
     .lista-consulta {
@@ -166,7 +166,7 @@
     }
 
     .lista-de-consultas {
-        text-align: justify;
         gap: 24px;
+        text-align: justify;
     }
 }
