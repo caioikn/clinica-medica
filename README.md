@@ -1,7 +1,7 @@
 # Projeto de Página Responsiva para Clínica Médica
 
 <p align="center">
-     <img alt="Static Badge" src="https://img.shields.io/badge/Status-Em_Desenvolvimento-green?style=for-the-badge">
+     <img loading="lazy" alt="Static Badge" src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-blue?style=for-the-badge">
 </p>
 
 Desafio proposto no site do **7 Days of Code**.
