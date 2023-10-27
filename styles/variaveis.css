@@ -8,4 +8,10 @@
 
     --azul: #4894FF;
     --cor-botao-video: #FFB050;
+
+    /* Formulário */
+    --branco-input: #ECECEC;
+    --cinza-formulario: #898989;
+    --cinza-placeholder: #CFCFCF;
+    --cinza-textarea: #E4E4E4;
 }

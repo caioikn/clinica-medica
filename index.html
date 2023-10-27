@@ -416,6 +416,40 @@
             </ul>
         </section>
 
+        <form class="formulario">
+            <h2 class="formulario__titulo">Agendar Consulta</h2>
+
+            <div class="formulario__campos">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input class="formulario__input" type="text" placeholder="Digite seu nome" id="nome" required>
+            </div>
+
+            <div class="formulario__campos">
+                <label class="formulario__label" for="tipo">Tipo de Consulta</label>
+                <select class="formulario__select" name="tipo-consulta" required>
+                    <option value=""></option>
+                    <option value="local">Consulta no local</option>
+                    <option value="remoto">Consulta remota</option>
+                </select>
+            </div>
+
+            <div class="formulario__campos">
+                <label class="formulario__label" for="data">Data da Consulta</label>
+                <input class="formulario__input" type="date" placeholder="Selecione uma data" id="data" required>
+            </div>
+
+            <div class="formulario__campos">
+                <label class="formulario__label" for="hora">Horário da Consulta</label>
+                <input class="formulario__input" type="time" placeholder="Selecione um horário" id="hora" required>
+            </div>
+
+            <div class="formulario__campos">
+                <label class="formulario__label" for="observacao">Observações</label>
+                <textarea class="formulario__textarea" name="observacao" id="observacao" cols="" rows="10"></textarea>
+            </div>
+
+            <button class="formulario__botao" type="submit">Salvar</button>
+        </form>
     </main>
 
     <section class="modal-cadastro" id="modal">
